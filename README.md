@@ -13,9 +13,13 @@ A system that takes a single keyword and automatically produces:
 - ✅ Ready-to-publish social media posts (integrated with Buffer)
 - ✅ A delivery report with links to everything
 
-**Zero manual work between stages.** The only human step is approving which keywords go into production.
+**Zero manual work between stages.** The only human step is approving which keywords go into production — and even that is done directly in Google Sheets.
 
 Built for a real client in the aviation training industry (Brazil). Reduced content production from **~8 hours to ~25 minutes per article**.
+
+### 📊 Google Sheets as the control panel
+
+The client never touches n8n, APIs, or any technical interface. **Google Sheets is the only interface they interact with.** Everything — from reviewing the content inventory, to approving keywords, to triggering production — happens through a single spreadsheet. They mark a column as "approved," and the pipeline does the rest. This was a deliberate design choice: the client's marketing team works in Sheets every day, so the automation meets them where they already are.
 
 ---
 
